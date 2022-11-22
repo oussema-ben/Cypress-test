@@ -13,7 +13,6 @@ export class GoogleSearch{
         return cy.get(('[href="https://www.skyscanner.fr/"] > .LC20lb'));
      } 
      searchResultsVols(){
-        //aria-label="jeudi 1 décembre 2022"
         return cy.get('[data-cy="airli-feature"]').first();
     }
     DateSelector(){
